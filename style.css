@@ -1,5 +1,5 @@
 /*
-Theme Name: Twenty Fifteen
+Theme Name: Twenty Fifteen Mod
 Theme URI: https://wordpress.org/themes/twentyfifteen
 Author: the WordPress team
 Author URI: https://wordpress.org/
@@ -3899,7 +3899,7 @@ p > video {
 		min-height: 100%;
 		position: fixed;
 		top: 0;
-		left: 0;
+		right: 0;
 		width: 29.4118%;
 		z-index: 0; /* Fixes flashing bug with scrolling on Safari */
 	}
@@ -3910,8 +3910,8 @@ p > video {
 	}
 
 	.sidebar {
-		float: left;
-		margin-right: -100%;
+		float: right;
+		margin-left: -100%;
 		max-width: 413px;
 		position: relative;
 		width: 29.4118%;
@@ -3930,8 +3930,10 @@ p > video {
 
 	.site-content {
 		display: block;
-		float: left;
-		margin-left: 29.4118%;
+		/*float: left;
+		margin-left: 29.4118%;*/
+		float: right;
+		margin-right: 29.4118%;
 		width: 70.5882%;
 	}
 
